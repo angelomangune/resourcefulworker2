@@ -256,4 +256,10 @@ sudo certbot renew --dry-run
  2. Buy me A coffee ❤️ : https://www.buymeacoffee.com/scaleupsaas
 
 Thanks for your support :)
+<<<<<<< HEAD
 >>>>>>> 7e6a936 (Update README.md)
+=======
+
+<a href="https://www.buymeacoffee.com/scaleupsaas"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=scaleupsaas&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
+>>>>>>> 48b3e21 (Update README.md)
