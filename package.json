@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/saasscaleup/nodejs-ssl-server#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
   }
 }
