@@ -4,59 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angelo Mangune - IT Support Professional</title>
+    <title>Interactive IT Support Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="navbar">
-        <div class="nav-link" data-target="about">About</div>
-        <div class="nav-link" data-target="contact">Contact</div>
-        <div class="nav-link" data-target="skills">Skills</div>
-        <div class="nav-link" data-target="certifications">Certifications</div>
+        <span class="nav-link" onclick="showAboutMe()">About Me</span>
+        <span class="nav-link" onclick="showExperience()">Experience</span>
+        <span class="nav-link" onclick="showSkills()">Skills</span>
+        <span class="nav-link" onclick="showCertifications()">Certifications</span>
+        <span class="nav-link"><a href="/download/resume.pdf" download>Download Resume</a></span>
+        <span class="nav-link"><a href="https://www.linkedin.com/in/angelomangune/" target="_blank">LinkedIn Profile</a></span>
     </div>
 
     <div class="container">
-        <section id="about" class="section">
-            <!-- About Me Content -->
-            <h2>About Me</h2>
-            <p>I am a dedicated and certified IT professional with a passion for solving technical issues and enhancing operational efficiency. With expertise in IT support, troubleshooting, and system administration, I am committed to delivering high-quality solutions to optimize IT operations.</p>
-        </section>
+        <div class="section" id="aboutMe">
+            <h1>About Me</h1>
+            <p>I am a certified IT professional with expertise in technical support, networking, and system administration. I have a proven track record of resolving complex IT issues, improving customer satisfaction, and optimizing operational efficiency. I hold certifications in AWS Certified Cloud Practitioner, CompTIA A+ CE, and Google IT Support by Google on Coursera. I am actively learning in-demand technologies like cloud computing and am eager to contribute my skills and ongoing learning to a dynamic IT support team.</p>
+        </div>
 
-        <section id="contact" class="section">
-            <!-- Contact Information Content -->
-            <h2>Contact Information</h2>
-            <ul>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/angelomangune" target="_blank">linkedin.com/in/angelomangune</a></li>
-                <li><strong>Email:</strong> angelomangune@gmail.com</li>
-                <li><strong>Website:</strong> <a href="https://resourcefulworker.com" target="_blank">resourcefulworker.com</a></li>
-                <li><strong>Phone:</strong> +63-995-214-3763</li>
-            </ul>
-        </section>
+        <div class="section" id="experience">
+            <h1>Experience</h1>
+            <p><strong>Founder & Entrepreneur</strong><br>
+            Jan 2017 - Current | TechHub Internet Cafe, Angeles City<br>
+            - Established and operated a successful internet cafe business, providing technical support to customers and addressing their computer-related concerns.<br>
+            - Implemented robust networking solutions, ensuring reliable internet access for customers and diagnosing network configuration problems as needed.</p>
 
-        <section id="skills" class="section">
-            <!-- Skills Content -->
-            <li>IT Support and Troubleshooting</li>
-            <li>Network Configuration</li>
-            <li>System Administration</li>
-            <li>Cloud Computing (AWS, Azure, Google Cloud)</li>
-            <li>Operating Systems: Windows, Linux, macOS, Android, iOS</li>
-        </ul>
-        </section>
+            <p><strong>IT Staff</strong><br>
+            Aug 2017 - Sep 2018 | Micro Computer Leader Inc., Makati City<br>
+            - Promptly resolved hardware and software issues for all departments at PAGCOR Casino Filipino Angeles, ensuring minimal downtime and smooth operations.<br>
+            - Collaborated closely with the internal IT team, diagnosing and troubleshooting complex technical issues to enhance overall efficiency.</p>
 
-        <section id="certifications" class="section">
-            <!-- Certifications Content -->
-            <h2>Certifications</h2>
-            <ul>
-                <li>AWS Certified Cloud Practitioner (Expected Completion: Jan 15, 2024)</li>
-                <li>CompTIA A+ CE (Certified on: Oct 20, 2023)</li>
-                <li>Google IT Support by Google on Coursera (Certificate Date: May 10, 2023)</li>
-            </ul>
-        </section>
+            <p><strong>Sales Technician</strong><br>
+            Mar 2012 - Jul 2014 | Compu Drive Trading, Angeles City<br>
+            - Demonstrated exceptional product knowledge, providing technical assistance to customers in retail and wholesale of computer components.<br>
+            - Assembled and sold computer parts, showcasing expertise in hardware components and configurations.</p>
+        </div>
+
+        <div class="section" id="skills">
+            <h1>Skills</h1>
+            <p><strong>Technical Skills:</strong><br>
+            IT Support and Troubleshooting, Hardware and Software Troubleshooting, Network Configuration, Problem Diagnosis and Resolution, System Administration, Ticketing System, Mobile Device Support</p>
+
+            <p><strong>Cloud Technologies:</strong><br>
+            Cloud Computing, AWS (Amazon Web Services), Azure (Microsoft Azure), Google Cloud, Oracle Cloud</p>
+
+            <p><strong>Cybersecurity:</strong><br>
+            Network Security, Malware Analysis</p>
+
+            <p><strong>Operating Systems:</strong><br>
+            Windows, Linux, macOS, Android, Apple iOS</p>
+
+            <p><strong>Virtualization:</strong><br>
+            VMware vSphere/ESXi, Microsoft Hyper-V, Oracle VirtualBox</p>
+
+            <p><strong>Development and Analysis:</strong><br>
+            Web Development, WordPress, Programming and Scripting, Data Analysis</p>
+        </div>
+
+        <div class="section" id="certifications">
+            <h1>Certifications</h1>
+            <p><strong>AWS Certified Cloud Practitioner</strong><br>
+            Expected Completion: Jan 15, 2024</p>
+
+            <p><strong>CompTIA A+ CE</strong><br>
+            Certified on: Oct 20, 2023 | Verification Code: H1Y6H0TZKMR4QE5Z</p>
+
+            <p><strong>Google IT Support by Google on Coursera</strong><br>
+            Certificate Date: May 10, 2023</p>
+        </div>
     </div>
 
     <script src="script.js"></script>
 </body>
 
 </html>
-
