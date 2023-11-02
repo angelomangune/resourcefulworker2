@@ -10,11 +10,19 @@ body {
     color: #fff;
     padding: 10px;
     text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link {
     margin: 0 20px;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #4caf50;
 }
 
 .container {
@@ -23,18 +31,29 @@ body {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .section {
     display: none;
+    margin-top: 20px;
 }
 
 .section h1 {
     color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
     margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: center;
 }
 
 button {
@@ -45,6 +64,7 @@ button {
     margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 16px;
     transition: background-color 0.3s ease;
 }
 
@@ -56,8 +76,9 @@ a {
     text-decoration: none;
     color: #4caf50;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #45a049;
 }
