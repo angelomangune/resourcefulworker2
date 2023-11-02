@@ -9,18 +9,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>Angelo Mangune</h1>
-            <p>Certified IT Professional | Problem Solver | Continuous Learner</p>
-        </header>
+    <div class="navbar">
+        <div class="nav-link" data-target="about">About</div>
+        <div class="nav-link" data-target="contact">Contact</div>
+        <div class="nav-link" data-target="skills">Skills</div>
+        <div class="nav-link" data-target="certifications">Certifications</div>
+    </div>
 
-        <section class="about">
+    <div class="container">
+        <section id="about" class="section">
+            <!-- About Me Content -->
             <h2>About Me</h2>
             <p>I am a dedicated and certified IT professional with a passion for solving technical issues and enhancing operational efficiency. With expertise in IT support, troubleshooting, and system administration, I am committed to delivering high-quality solutions to optimize IT operations.</p>
         </section>
 
-        <section class="contact">
+        <section id="contact" class="section">
+            <!-- Contact Information Content -->
             <h2>Contact Information</h2>
             <ul>
                 <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/angelomangune" target="_blank">linkedin.com/in/angelomangune</a></li>
@@ -30,18 +34,18 @@
             </ul>
         </section>
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>IT Support and Troubleshooting</li>
-                <li>Network Configuration</li>
-                <li>System Administration</li>
-                <li>Cloud Computing (AWS, Azure, Google Cloud)</li>
-                <li>Operating Systems: Windows, Linux, macOS, Android, iOS</li>
-            </ul>
+        <section id="skills" class="section">
+            <!-- Skills Content -->
+            <li>IT Support and Troubleshooting</li>
+            <li>Network Configuration</li>
+            <li>System Administration</li>
+            <li>Cloud Computing (AWS, Azure, Google Cloud)</li>
+            <li>Operating Systems: Windows, Linux, macOS, Android, iOS</li>
+        </ul>
         </section>
 
-        <section class="certifications">
+        <section id="certifications" class="section">
+            <!-- Certifications Content -->
             <h2>Certifications</h2>
             <ul>
                 <li>AWS Certified Cloud Practitioner (Expected Completion: Jan 15, 2024)</li>
@@ -50,7 +54,9 @@
             </ul>
         </section>
     </div>
+
     <script src="script.js"></script>
 </body>
 
 </html>
+

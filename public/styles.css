@@ -5,6 +5,27 @@ body {
     padding: 0;
 }
 
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.section {
+    transition: background-color 0.3s ease;
+}
+
+.section-hover {
+    background-color: #f0f0f0;
+}
+
+
 .container {
     width: 80%;
     margin: 0 auto;
