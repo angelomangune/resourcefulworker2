@@ -9,24 +9,25 @@ function showCertifications() {
         Verification Code: H1Y6H0TZKMR4QE5Z</p>
         <p><strong>Google IT Support by Google on Coursera</strong><br>
         Certificate Date: May 10, 2023</p>
-        <button onclick="goBack()">Go Back</button>
+        <button class="back-btn" onclick="goBack()">Go Back</button>
     `;
 }
 
-// Add any other functions you need here
+// Add other functions for different sections as needed
 
 function goBack() {
     const gameArea = document.getElementById('gameArea');
     gameArea.innerHTML = `
         <h1>Interactive IT Support CV</h1>
         <p>Welcome to my Interactive IT Support CV Game!</p>
-        <p>Choose an option:</p>
-        <button onclick="showAboutMe()">About Me</button>
-        <button onclick="showExperience()">Experience</button>
-        <button onclick="showSkills()">Skills</button>
-        <button onclick="showCertifications()">Certifications</button>
-        <button><a href="/download/resume.pdf" download>Download Resume</a></button>
-        <button><a href="https://www.linkedin.com/in/angelomangune/" target="_blank">LinkedIn Profile</a></button>
+        <div class="options">
+            <button class="option-btn" onclick="showAboutMe()">About Me</button>
+            <button class="option-btn" onclick="showExperience()">Experience</button>
+            <button class="option-btn" onclick="showSkills()">Skills</button>
+            <button class="option-btn" onclick="showCertifications()">Certifications</button>
+            <a href="/download/resume.pdf" download class="resume-btn">Download Resume</a>
+            <a href="https://www.linkedin.com/in/angelomangune/" target="_blank" class="linkedin-btn">LinkedIn Profile</a>
+        </div>
     `;
 }
 
