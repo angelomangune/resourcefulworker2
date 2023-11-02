@@ -1,26 +1,34 @@
-document.addEventListener('DOMContentLoaded', function () {
+function showAboutMe() {
+    hideAllSections();
+    document.getElementById('aboutMe').style.display = 'block';
+}
+
+function showExperience() {
+    hideAllSections();
+    document.getElementById('experience').style.display = 'block';
+}
+
+function showSkills() {
+    hideAllSections();
+    document.getElementById('skills').style.display = 'block';
+}
+
+function showCertifications() {
+    hideAllSections();
+    document.getElementById('certifications').style.display = 'block';
+}
+
+function hideAllSections() {
     const sections = document.querySelectorAll('.section');
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            const targetSectionId = link.getAttribute('data-target');
-            const targetSection = document.getElementById(targetSectionId);
-
-            window.scrollTo({
-                top: targetSection.offsetTop,
-                behavior: 'smooth'
-            });
-        });
-    });
-
     sections.forEach(section => {
-        section.addEventListener('mouseover', () => {
-            section.classList.add('section-hover');
-        });
-
-        section.addEventListener('mouseout', () => {
-            section.classList.remove('section-hover');
-        });
+        section.style.display = 'none';
     });
-});
+}
+
+function goBack() {
+    hideAllSections();
+    document.getElementById('aboutMe').style.display = 'block';
+}
+
+// Initial display
+showAboutMe();
